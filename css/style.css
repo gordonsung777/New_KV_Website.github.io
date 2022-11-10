@@ -1,0 +1,564 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;500;600;700&family=Lora&family=Merriweather&family=Montserrat:wght@400;500&family=Poppins&display=swap');
+*/
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Merriweather:ital@1&family=Playfair+Display&display=swap');
+
+
+body{
+    font-family:"Castoro", sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+/*NEED TO FIX MARGINS PADDING FOR LOGO, NAVS*/
+.navbar-brand img{
+    width: 30vw;
+    height:13vh;
+    margin-right:3vw;
+    margin-left:13vw;
+    
+}
+
+
+
+
+
+
+
+a{
+    color: #092032;
+    text-decoration:none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+img {
+    width:100%;
+}
+
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.justify-content-between
+{
+    margin-left:-7%;
+    margin-right:-7%;
+}
+
+
+
+.bg-cover{
+    background-position:center !important;
+    background-size:cover !important;
+    background-position:center !important;
+}
+
+.intro{
+    margin-bottom:40px;
+}
+
+.intro h6{
+    font-weight:400;
+    color: #ff4d29;
+}
+
+.intro p{
+    max-width: 500px;
+    margin: auto;
+}
+
+/*Navbar*/
+.top-nav {
+    background-color: #ff4d29;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.top-nav p{
+    margin-bottom:0;
+    display: inline-block;
+    margin-right: 16px;
+    color:#ffffff;
+}
+
+
+
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+
+
+.social-links a{
+    width: 38.5px;
+    height: 38.5px;
+    background-color: rgba(255,255,255,0.3);
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+    color: #ffffff;
+    font-size:20px;
+    border-radius:100%;
+}
+
+
+
+
+
+.social-links a:hover{
+    background-color: #ffffff;
+    color: #ff4d29;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #ff4d29;
+
+}
+
+.navbar-brand
+{
+    font-weight:700;
+    font-size:26px;
+    color: #092032;
+}
+
+/*.navbar-brand span {
+    color:#ff4d29;
+}*/
+
+.btn {
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #ff4d29;
+    color: #ffffff;
+    border-color:#ff4d29;
+}
+
+.btn-brand:hover {
+    color: #ffffff;
+    background-color: #e04122;
+}
+
+/*Slider*/
+.slide1{
+    background-image: linear-gradient(rgba(9,32,50,.04),rgba(9,32,50,0.4)), url(../img/stockPhotos/colton-duke-UExx0KnnkjY-unsplash.jpg);
+}
+
+.slide2{
+    background-image: linear-gradient(rgba(9,32,50,.04),rgba(9,32,50,0.4)),url(../img/stockPhotos/jason-briscoe-pAqfQye5hlw-unsplash.jpg);
+}
+
+.slide3{
+    background-image:linear-gradient(rgba(9,32,50,.04),rgba(9,32,50,0.4)),url(../img/stockPhotos/santiago-calatrava-architecture-design-building-161887.jpeg);
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display:grid;
+    place-items: center;
+    background-color: rgba(255,255,255,0.2) !important;
+    margin-top: -30px !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    font-size: 12px!important;
+    border-radius: 100px !important;
+
+}
+
+.owl-prev{
+    left:0;
+}
+
+.owl-next{
+    right:0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+    background-color: #ff4d29 !important;
+}
+
+/*Infobox*/
+
+.info-box{
+    display:flex;
+    align-items:center;
+}
+.info-box img{
+    width: 90px;
+    margin-right:24px;
+}
+
+#milestone{
+    background:linear-gradient(rgba(255,77,41,0.9), rgba(255,77,41,0.9)), url(../img/stockPhotos/photo-1507961455425-0caef37ef6fe.jpg)
+}
+
+#milestone .display-4, 
+#milestone p {
+    color: #ffffff;
+}
+
+#milestone .display-4 {
+    font-weight:700;
+}
+/*SERVICES*/
+.service-box {
+    padding:32px;
+    box-shadow: 0px 6px 30px rgba(0,0,0,0.08);
+    text-align:center;
+}
+
+.service-box img{
+    width:unset;
+}
+
+.service-box h5{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#project-slider .owl-next,
+#project-slider .owl-prev {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#project-slider .owl-next:hover,
+#project-slider .owl-prev:hover {
+    background-color: #ff4d29 !important;
+}
+
+.project {
+    position:relative;
+    
+}
+
+.project .overlay{
+    background-color: linear-gradient(to bottom, rgba(9, 32, 50, 0.0), rgba(9, 32, 50, 0.8));
+    position: absolute;
+    width: 100%;
+    height: 240px;
+    bottom: 0;
+    left: 0;
+}
+
+.project .content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 32px;
+}
+
+.project h1,
+.project h6 {
+    color: #fff;
+}
+
+.project h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.project h6::before {
+    content: '';
+    height: 2px;
+    width: 24px;
+    background-color: #ff4d29;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+/*Team*/
+.team-member{
+    text-align:center;
+}
+
+.team-member .img-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member .overlay{
+    position: absolute;
+    top:-10%;
+    left:4%;
+    width:20vw;
+    height:85vh;
+    background-color: rgba(241, 85, 12, 0.6);
+    transition: all 0.4s ease;
+    opacity: 0;
+    border-radius:0.5rem;
+}
+
+.team-member .social-links {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+
+.team-member:hover .overlay {
+    opacity: 1;
+    top: 0;
+}
+
+
+.team-member:hover .social-links {
+    opacity: 1;
+    top: 75%;
+}
+
+.team-member h5{
+    margin-top:24px;
+}
+
+.img-wrapper img{
+    width:20vw;
+    height:85vh;
+    object-fit:cover;
+    border-radius:0.5rem;
+    
+}
+
+
+
+.btn-primary {
+    background-color: rgba(82, 92, 240, 0.6) !important;
+    border-color: Blue !important;
+  }
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:visited,
+  .btn-primary:focus {
+    background-color: DarkBlue !important;
+    border-color: DarkBlue !important;
+  }
+
+
+  .reviews{
+      background: linear-gradient(rgba(9, 32, 50, 0.7), rgba(9, 32, 50, 0.7)),url(../img/stockPhotos/one57-157-west-57th-street-00.jpg);
+  }
+  .review {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+  }
+
+  .review img{
+      width: 250px !important;
+      margin: auto;
+  }
+
+  .review h4{
+      margin-top: 16px;
+  }
+
+  .review h4,
+  .review p{
+      color:#fff;
+  }
+
+  .review small a{
+      color:#ff7f29;
+      font-size: 1.4vw;
+  }
+
+  .review small a:hover{
+    color:#c22000;
+    text-shadow: #092032;
+    font-weight:500;
+}
+
+  .review p{
+      margin-top: 28px;
+  }
+
+  /*FOOTER*/
+  footer{
+    padding-top:80px; 
+    padding-bottom: 20px;
+    color: #ffff;
+    text-align:center; 
+    background:linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32,50,0.8)), url(../img/bg_banner1.jpg);
+      
+  }
+
+  footer .navbar-brand{
+      color: #fff;
+      margin-bottom:24px;
+      display:inline-block;
+  }
+
+  .footer-bottom a{
+    color: #fff;
+  }
+  .footer-bottom a:hover{
+    color:#c22000;
+    text-shadow: #092032;
+    font-weight:500;
+    text-decoration:underline;
+  }
+
+
+  .footer-top{
+      margin-bottom:40px;
+  }
+
+  .footer-bottom{
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding-top:20px;
+  }
+
+  footer .social-links a{
+      margin-left:5px;
+      margin: 5px;
+  }
+
+  /*
+  .form-control:focus{
+      box-shadow: none;
+      border-color: #ff4d29;
+  }*/
+
+  .googlemaps iframe{
+      width:100%;
+      height:100%;
+  }
+  
+
+
+
+/*
+  
+  .video-container{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index:99999;
+    background-color: rgba(255,122,0,0.1);
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    opacity:0;
+    pointer-events:none;
+    transition: all 0.3s;
+    }
+
+    .video-container .close{
+     position:absolute;
+     top:10%;
+     right:25px;
+     font-size:20px;
+     cursor:pointer;
+    }
+
+    
+    .video-container video{
+        width:90%;
+        max-width:800px;
+        transform:scale(0);
+        box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+        outline:none;
+        transition: all 0.3s;
+    }
+
+    .video-container .show{
+        pointer-events:all;
+        opacity:1;
+    }
+   
+    .video-container .show video{
+        transform:scale(1);
+    }
+
+    
+ 
+
+ */
+
+
+
+
+
+
+/*
+ 
+.modal-dialog {
+    max-width: 80%;
+    margin: 30px auto;
+}
+
+.modal-body {
+position:relative;
+padding:0px;
+}
+.btn-close {
+position:absolute;
+right:-30px;
+top:0;
+}
+
+*/
+
+
+.modal-content1{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+    }
+
+
+
+
+
+
+.showcase{
+    right: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding:100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.showcase video{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    
+}
